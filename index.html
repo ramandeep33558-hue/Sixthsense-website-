@@ -1,0 +1,1151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sixth Sense Psychics - Your Spiritual Journey Starts Here</title>
+    <meta name="description" content="Connect with gifted psychic advisors for guidance on love, career, life path, and more. Available 24/7 via chat, phone, or video. First 4 minutes FREE!">
+    <meta name="keywords" content="psychic reading, tarot, astrology, spiritual guidance, love advice, career guidance">
+    <link rel="icon" type="image/jpeg" href="https://customer-assets.emergentagent.com/job_42069a8a-9a70-44df-94f4-f6571c6ab514/artifacts/ficttj0r_IMG_4688.jpeg">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: #FFF;
+            color: #1A1A2E;
+            line-height: 1.6;
+        }
+        
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 16px 24px;
+            background: #FFF;
+            border-bottom: 1px solid #F0F0F0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .logo-container {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .logo-image {
+            width: 36px;
+            height: 36px;
+            border-radius: 8px;
+        }
+        
+        .logo-text {
+            font-size: 16px;
+            font-weight: 800;
+            color: #1A1A2E;
+        }
+        
+        .nav-buttons {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .nav-button {
+            padding: 10px 18px;
+            font-size: 14px;
+            font-weight: 600;
+            color: #1A1A2E;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background 0.2s;
+        }
+        
+        .nav-button:hover {
+            background: #F0F0F0;
+        }
+        
+        .nav-button-primary {
+            background: #9C27B0;
+            color: #FFF !important;
+            padding: 10px 20px;
+        }
+        
+        .nav-button-primary:hover {
+            background: #7B1FA2;
+        }
+        
+        /* Hero Section */
+        .hero-section {
+            background: linear-gradient(135deg, #1A1A2E 0%, #16213E 50%, #0F3460 100%);
+            padding: 80px 24px;
+            text-align: center;
+        }
+        
+        .hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .free-credits-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(255, 215, 0, 0.15);
+            padding: 10px 20px;
+            border-radius: 20px;
+            border: 1px solid rgba(255, 215, 0, 0.3);
+            margin-bottom: 24px;
+        }
+        
+        .free-credits-tag i {
+            color: #FFD700;
+        }
+        
+        .free-credits-text {
+            font-size: 12px;
+            font-weight: 700;
+            color: #FFD700;
+            letter-spacing: 0.5px;
+        }
+        
+        .hero-title {
+            font-size: 48px;
+            font-weight: 800;
+            color: #FFF;
+            line-height: 1.2;
+            margin-bottom: 24px;
+        }
+        
+        .hero-title-highlight {
+            color: #E1BEE7;
+            font-size: 56px;
+            display: block;
+        }
+        
+        .hero-subtitle {
+            font-size: 18px;
+            color: rgba(255,255,255,0.8);
+            max-width: 500px;
+            margin: 0 auto 32px;
+        }
+        
+        .hero-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: linear-gradient(135deg, #9C27B0, #7B1FA2);
+            color: #FFF;
+            padding: 16px 32px;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 700;
+            text-decoration: none;
+            margin-bottom: 32px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .hero-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(156, 39, 176, 0.4);
+        }
+        
+        .download-section {
+            margin-top: 24px;
+        }
+        
+        .download-title {
+            font-size: 13px;
+            color: rgba(255,255,255,0.7);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 16px;
+        }
+        
+        .store-buttons-row {
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .store-button {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background: rgba(0,0,0,0.3);
+            padding: 12px 20px;
+            border-radius: 10px;
+            border: 1px solid rgba(255,255,255,0.2);
+            color: #FFF;
+            text-decoration: none;
+            transition: background 0.2s;
+        }
+        
+        .store-button:hover {
+            background: rgba(0,0,0,0.5);
+        }
+        
+        .store-button i {
+            font-size: 24px;
+        }
+        
+        .store-button-label {
+            font-size: 10px;
+            color: rgba(255,255,255,0.7);
+        }
+        
+        .store-button-name {
+            font-size: 14px;
+            font-weight: 700;
+        }
+        
+        /* Section Styles */
+        .section {
+            padding: 80px 24px;
+        }
+        
+        .section-dark {
+            background: #1A1A2E;
+        }
+        
+        .section-light {
+            background: #F8F0FF;
+        }
+        
+        .section-title {
+            font-size: 32px;
+            font-weight: 800;
+            text-align: center;
+            margin-bottom: 8px;
+        }
+        
+        .section-subtitle {
+            font-size: 16px;
+            color: #666;
+            text-align: center;
+            margin-bottom: 48px;
+        }
+        
+        .text-light {
+            color: #FFF;
+        }
+        
+        .text-muted {
+            color: rgba(255,255,255,0.7);
+        }
+        
+        /* Services Grid */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 24px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        .service-card {
+            background: #F8F9FA;
+            border-radius: 16px;
+            padding: 32px;
+            text-align: center;
+        }
+        
+        .service-icon {
+            width: 64px;
+            height: 64px;
+            background: linear-gradient(135deg, #9C27B0, #7B1FA2);
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 16px;
+        }
+        
+        .service-icon i {
+            font-size: 28px;
+            color: #FFF;
+        }
+        
+        .service-title {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        
+        .service-desc {
+            font-size: 14px;
+            color: #666;
+        }
+        
+        /* Steps */
+        .steps-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 24px;
+            flex-wrap: wrap;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .step {
+            text-align: center;
+            max-width: 250px;
+        }
+        
+        .step-number {
+            width: 56px;
+            height: 56px;
+            background: #9C27B0;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 16px;
+        }
+        
+        .step-number-text {
+            font-size: 24px;
+            font-weight: 800;
+            color: #FFF;
+        }
+        
+        .step-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: #FFF;
+            margin-bottom: 8px;
+        }
+        
+        .step-desc {
+            font-size: 14px;
+            color: rgba(255,255,255,0.7);
+        }
+        
+        .step-connector {
+            width: 60px;
+            height: 2px;
+            background: rgba(156, 39, 176, 0.5);
+        }
+        
+        /* Featured Psychics */
+        .psychics-scroll {
+            display: flex;
+            gap: 20px;
+            overflow-x: auto;
+            padding: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .psychic-card {
+            width: 200px;
+            background: #FFF;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            flex-shrink: 0;
+        }
+        
+        .psychic-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .psychic-badge {
+            position: absolute;
+            top: 12px;
+            right: 12px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            background: rgba(0,0,0,0.7);
+            padding: 6px 10px;
+            border-radius: 12px;
+        }
+        
+        .psychic-badge i {
+            color: #FFD700;
+            font-size: 12px;
+        }
+        
+        .psychic-rating {
+            font-size: 12px;
+            font-weight: 700;
+            color: #FFF;
+        }
+        
+        .psychic-card-content {
+            padding: 16px;
+        }
+        
+        .psychic-name {
+            font-size: 16px;
+            font-weight: 700;
+        }
+        
+        .psychic-specialty {
+            font-size: 13px;
+            color: #9C27B0;
+        }
+        
+        .psychic-meta {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 12px;
+        }
+        
+        .psychic-reviews {
+            font-size: 12px;
+            color: #666;
+        }
+        
+        .psychic-rate {
+            font-size: 14px;
+            font-weight: 700;
+        }
+        
+        /* Testimonials */
+        .testimonials-container {
+            display: flex;
+            gap: 24px;
+            justify-content: center;
+            flex-wrap: wrap;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border-radius: 16px;
+            padding: 24px;
+            max-width: 350px;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        .testimonial-stars {
+            display: flex;
+            gap: 2px;
+            margin-bottom: 12px;
+        }
+        
+        .testimonial-stars i {
+            color: #FFD700;
+            font-size: 14px;
+        }
+        
+        .testimonial-text {
+            font-size: 15px;
+            color: rgba(255,255,255,0.9);
+            font-style: italic;
+            margin-bottom: 12px;
+        }
+        
+        .testimonial-name {
+            font-size: 14px;
+            color: #9C27B0;
+            font-weight: 600;
+        }
+        
+        /* Advisor Section */
+        .advisor-section {
+            background: #F8F0FF;
+            padding: 80px 24px;
+        }
+        
+        .advisor-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 48px;
+            max-width: 1100px;
+            margin: 0 auto;
+            flex-wrap: wrap;
+        }
+        
+        .advisor-left {
+            max-width: 500px;
+        }
+        
+        .advisor-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: #9C27B0;
+            padding: 8px 14px;
+            border-radius: 20px;
+            margin-bottom: 16px;
+        }
+        
+        .advisor-badge i {
+            color: #E8A0B8;
+        }
+        
+        .advisor-badge-text {
+            font-size: 11px;
+            font-weight: 700;
+            color: #FFF;
+            letter-spacing: 0.5px;
+        }
+        
+        .advisor-title {
+            font-size: 32px;
+            font-weight: 800;
+            margin-bottom: 12px;
+        }
+        
+        .advisor-subtitle {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 24px;
+        }
+        
+        .advisor-benefits {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        
+        .advisor-benefit {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+        
+        .benefit-icon {
+            width: 48px;
+            height: 48px;
+            background: #E8D5F2;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .benefit-icon i {
+            font-size: 20px;
+            color: #9C27B0;
+        }
+        
+        .benefit-title {
+            font-size: 16px;
+            font-weight: 700;
+        }
+        
+        .benefit-desc {
+            font-size: 13px;
+            color: #666;
+        }
+        
+        .advisor-app-card {
+            background: #1A1A2E;
+            border-radius: 24px;
+            padding: 32px;
+            text-align: center;
+            border: 2px solid #9C27B0;
+            max-width: 350px;
+        }
+        
+        .advisor-app-logo {
+            width: 80px;
+            height: 80px;
+            border-radius: 16px;
+            margin-bottom: 12px;
+        }
+        
+        .advisor-app-name {
+            font-size: 22px;
+            font-weight: 800;
+            color: #FFF;
+            margin-bottom: 4px;
+        }
+        
+        .advisor-app-desc {
+            font-size: 14px;
+            color: rgba(255,255,255,0.7);
+            margin-bottom: 20px;
+        }
+        
+        .app-store-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        
+        .app-store-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            background: #333;
+            padding: 12px 20px;
+            border-radius: 10px;
+            color: #FFF;
+            text-decoration: none;
+            transition: background 0.2s;
+        }
+        
+        .app-store-button:hover {
+            background: #444;
+        }
+        
+        .app-store-button i {
+            font-size: 22px;
+        }
+        
+        .app-store-label {
+            font-size: 10px;
+            color: rgba(255,255,255,0.7);
+        }
+        
+        .app-store-name {
+            font-size: 15px;
+            font-weight: 700;
+        }
+        
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(135deg, #9C27B0, #7B1FA2, #6A1B9A);
+            padding: 80px 24px;
+            text-align: center;
+        }
+        
+        .cta-title {
+            font-size: 32px;
+            font-weight: 800;
+            color: #FFF;
+            margin-bottom: 12px;
+        }
+        
+        .cta-subtitle {
+            font-size: 16px;
+            color: rgba(255,255,255,0.8);
+            max-width: 400px;
+            margin: 0 auto 24px;
+        }
+        
+        .cta-credits {
+            text-align: center;
+            margin-bottom: 24px;
+        }
+        
+        .cta-credits i {
+            font-size: 32px;
+            color: #FFD700;
+        }
+        
+        .cta-credits-text {
+            font-size: 28px;
+            font-weight: 800;
+            color: #FFD700;
+            display: block;
+            margin-top: 8px;
+        }
+        
+        .cta-credits-subtext {
+            font-size: 14px;
+            color: rgba(255,255,255,0.7);
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: #FFF;
+            color: #9C27B0;
+            padding: 16px 32px;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 700;
+            text-decoration: none;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        
+        /* Footer */
+        .footer {
+            background: #F8F9FA;
+            padding: 48px 24px 24px;
+        }
+        
+        .footer-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 24px;
+            padding-bottom: 24px;
+            border-bottom: 1px solid #E0E0E0;
+        }
+        
+        .footer-tagline {
+            font-size: 14px;
+            color: #666;
+            margin-top: 8px;
+        }
+        
+        .footer-links-row {
+            display: flex;
+            gap: 16px;
+        }
+        
+        .footer-link-button {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 16px;
+            border: 1px solid #E0E0E0;
+            border-radius: 10px;
+            background: #FFF;
+            color: #9C27B0;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background 0.2s;
+        }
+        
+        .footer-link-button:hover {
+            background: #F0F0F0;
+        }
+        
+        .footer-link-button i {
+            font-size: 18px;
+        }
+        
+        .footer-bottom {
+            text-align: center;
+            padding-top: 24px;
+        }
+        
+        .footer-copyright {
+            font-size: 13px;
+            color: #999;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero-title {
+                font-size: 32px;
+            }
+            
+            .hero-title-highlight {
+                font-size: 38px;
+            }
+            
+            .step-connector {
+                width: 2px;
+                height: 30px;
+            }
+            
+            .steps-container {
+                flex-direction: column;
+            }
+            
+            .advisor-content {
+                flex-direction: column;
+            }
+            
+            .navbar {
+                padding: 12px 16px;
+            }
+            
+            .nav-button {
+                padding: 8px 12px;
+                font-size: 13px;
+            }
+            
+            .logo-text {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo-container">
+            <img src="https://customer-assets.emergentagent.com/job_42069a8a-9a70-44df-94f4-f6571c6ab514/artifacts/ficttj0r_IMG_4688.jpeg" alt="Sixth Sense Psychics Logo" class="logo-image">
+            <span class="logo-text">Sixth Sense Psychics</span>
+        </div>
+        <div class="nav-buttons">
+            <a href="#" class="nav-button">Login</a>
+            <a href="#" class="nav-button nav-button-primary">Sign Up</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <div class="free-credits-tag">
+                <i class="fas fa-clock"></i>
+                <span class="free-credits-text">FIRST 4 MINUTES FREE ON YOUR FIRST READING!</span>
+            </div>
+            
+            <h1 class="hero-title">
+                <span class="hero-title-highlight">Sixth Sense Psychics</span>
+                Your Spiritual Journey Starts Here
+            </h1>
+            
+            <p class="hero-subtitle">
+                Connect with gifted psychic advisors for guidance on love, career, life path, and more. 
+                Available 24/7 via chat, phone, or video.
+            </p>
+            
+            <a href="#" class="hero-button">
+                Start Your Free Reading
+                <i class="fas fa-arrow-right"></i>
+            </a>
+            
+            <div class="download-section">
+                <p class="download-title">Download Our App</p>
+                <div class="store-buttons-row">
+                    <a href="#" class="store-button">
+                        <i class="fab fa-apple"></i>
+                        <div>
+                            <div class="store-button-label">Download on the</div>
+                            <div class="store-button-name">App Store</div>
+                        </div>
+                    </a>
+                    <a href="#" class="store-button">
+                        <i class="fab fa-google-play"></i>
+                        <div>
+                            <div class="store-button-label">Get it on</div>
+                            <div class="store-button-name">Google Play</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section">
+        <h2 class="section-title">How We Can Help You</h2>
+        <p class="section-subtitle">Choose your preferred way to connect</p>
+        
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-comment"></i>
+                </div>
+                <h3 class="service-title">Live Chat</h3>
+                <p class="service-desc">Text with psychics in real-time</p>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-phone"></i>
+                </div>
+                <h3 class="service-title">Phone Readings</h3>
+                <p class="service-desc">Voice calls for deeper connection</p>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-video"></i>
+                </div>
+                <h3 class="service-title">Video Sessions</h3>
+                <p class="service-desc">Face-to-face spiritual guidance</p>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <h3 class="service-title">Recorded Answers</h3>
+                <p class="service-desc">Get video responses to your questions</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="section section-dark">
+        <h2 class="section-title text-light">How It Works</h2>
+        <p class="section-subtitle text-muted">Get started in 3 simple steps</p>
+        
+        <div class="steps-container">
+            <div class="step">
+                <div class="step-number">
+                    <span class="step-number-text">1</span>
+                </div>
+                <h3 class="step-title">Sign Up for Free</h3>
+                <p class="step-desc">Create your free account and get 4 minutes free on your first reading</p>
+            </div>
+            
+            <div class="step-connector"></div>
+            
+            <div class="step">
+                <div class="step-number">
+                    <span class="step-number-text">2</span>
+                </div>
+                <h3 class="step-title">Choose Your Advisor</h3>
+                <p class="step-desc">Browse profiles, read reviews, and find your perfect match</p>
+            </div>
+            
+            <div class="step-connector"></div>
+            
+            <div class="step">
+                <div class="step-number">
+                    <span class="step-number-text">3</span>
+                </div>
+                <h3 class="step-title">Start Your Reading</h3>
+                <p class="step-desc">Connect via chat, phone, or video for instant guidance</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Psychics -->
+    <section class="section">
+        <h2 class="section-title">Featured Advisors</h2>
+        <p class="section-subtitle">Our top-rated psychic advisors</p>
+        
+        <div class="psychics-scroll">
+            <div class="psychic-card">
+                <div style="position: relative;">
+                    <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400" alt="Luna Starweaver" class="psychic-image">
+                    <div class="psychic-badge">
+                        <i class="fas fa-star"></i>
+                        <span class="psychic-rating">4.9</span>
+                    </div>
+                </div>
+                <div class="psychic-card-content">
+                    <h3 class="psychic-name">Luna Starweaver</h3>
+                    <p class="psychic-specialty">Tarot & Love</p>
+                    <div class="psychic-meta">
+                        <span class="psychic-reviews">342 reviews</span>
+                        <span class="psychic-rate">$3.99/min</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="psychic-card">
+                <div style="position: relative;">
+                    <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400" alt="Mystic Rose" class="psychic-image">
+                    <div class="psychic-badge">
+                        <i class="fas fa-star"></i>
+                        <span class="psychic-rating">4.8</span>
+                    </div>
+                </div>
+                <div class="psychic-card-content">
+                    <h3 class="psychic-name">Mystic Rose</h3>
+                    <p class="psychic-specialty">Crystal Ball</p>
+                    <div class="psychic-meta">
+                        <span class="psychic-reviews">218 reviews</span>
+                        <span class="psychic-rate">$4.99/min</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="psychic-card">
+                <div style="position: relative;">
+                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400" alt="Oracle Phoenix" class="psychic-image">
+                    <div class="psychic-badge">
+                        <i class="fas fa-star"></i>
+                        <span class="psychic-rating">4.9</span>
+                    </div>
+                </div>
+                <div class="psychic-card-content">
+                    <h3 class="psychic-name">Oracle Phoenix</h3>
+                    <p class="psychic-specialty">Medium & Spirits</p>
+                    <div class="psychic-meta">
+                        <span class="psychic-reviews">567 reviews</span>
+                        <span class="psychic-rate">$5.99/min</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="psychic-card">
+                <div style="position: relative;">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400" alt="Sage Moonlight" class="psychic-image">
+                    <div class="psychic-badge">
+                        <i class="fas fa-star"></i>
+                        <span class="psychic-rating">4.7</span>
+                    </div>
+                </div>
+                <div class="psychic-card-content">
+                    <h3 class="psychic-name">Sage Moonlight</h3>
+                    <p class="psychic-specialty">Astrology</p>
+                    <div class="psychic-meta">
+                        <span class="psychic-reviews">189 reviews</span>
+                        <span class="psychic-rate">$3.49/min</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section section-dark">
+        <h2 class="section-title text-light">What Our Clients Say</h2>
+        <p class="section-subtitle text-muted">Real experiences from real people</p>
+        
+        <div class="testimonials-container">
+            <div class="testimonial-card">
+                <div class="testimonial-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p class="testimonial-text">"Luna helped me understand my relationship better. Her tarot reading was incredibly accurate!"</p>
+                <p class="testimonial-name">— Sarah M.</p>
+            </div>
+            
+            <div class="testimonial-card">
+                <div class="testimonial-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p class="testimonial-text">"I was skeptical at first, but my career reading gave me the clarity I needed to make a big decision."</p>
+                <p class="testimonial-name">— Michael R.</p>
+            </div>
+            
+            <div class="testimonial-card">
+                <div class="testimonial-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p class="testimonial-text">"The free 4-minute intro convinced me. Now I have regular sessions with my favorite advisor."</p>
+                <p class="testimonial-name">— Jennifer L.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Become a Psychic Advisor -->
+    <section class="advisor-section">
+        <div class="advisor-content">
+            <div class="advisor-left">
+                <div class="advisor-badge">
+                    <i class="fas fa-sparkles"></i>
+                    <span class="advisor-badge-text">JOIN OUR TEAM</span>
+                </div>
+                <h2 class="advisor-title">Are You a Gifted Psychic?</h2>
+                <p class="advisor-subtitle">
+                    Share your spiritual gifts with thousands of seekers worldwide. Set your own rates, work from anywhere, and build a thriving practice.
+                </p>
+                
+                <div class="advisor-benefits">
+                    <div class="advisor-benefit">
+                        <div class="benefit-icon">
+                            <i class="fas fa-wallet"></i>
+                        </div>
+                        <div>
+                            <h4 class="benefit-title">Earn 40% Commission</h4>
+                            <p class="benefit-desc">Competitive rates for your readings</p>
+                        </div>
+                    </div>
+                    
+                    <div class="advisor-benefit">
+                        <div class="benefit-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div>
+                            <h4 class="benefit-title">Flexible Schedule</h4>
+                            <p class="benefit-desc">Work when and where you want</p>
+                        </div>
+                    </div>
+                    
+                    <div class="advisor-benefit">
+                        <div class="benefit-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div>
+                            <h4 class="benefit-title">Global Reach</h4>
+                            <p class="benefit-desc">Connect with clients worldwide</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="advisor-right">
+                <div class="advisor-app-card">
+                    <img src="https://customer-assets.emergentagent.com/job_42069a8a-9a70-44df-94f4-f6571c6ab514/artifacts/ane1lnpn_IMG_4687.jpeg" alt="Sixth Sense Advisors App" class="advisor-app-logo">
+                    <h3 class="advisor-app-name">Sixth Sense Advisors</h3>
+                    <p class="advisor-app-desc">Download our advisor app to apply</p>
+                    
+                    <div class="app-store-buttons">
+                        <a href="#" class="app-store-button">
+                            <i class="fab fa-apple"></i>
+                            <div>
+                                <div class="app-store-label">Download on the</div>
+                                <div class="app-store-name">App Store</div>
+                            </div>
+                        </a>
+                        
+                        <a href="#" class="app-store-button">
+                            <i class="fab fa-google-play"></i>
+                            <div>
+                                <div class="app-store-label">Get it on</div>
+                                <div class="app-store-name">Google Play</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <h2 class="cta-title">Ready to Discover Your Path?</h2>
+        <p class="cta-subtitle">
+            Join thousands of people who found clarity and guidance with Sixth Sense Psychics
+        </p>
+        
+        <div class="cta-credits">
+            <i class="fas fa-clock"></i>
+            <span class="cta-credits-text">4 MINUTES FREE</span>
+            <span class="cta-credits-subtext">on your first reading</span>
+        </div>
+        
+        <a href="#" class="cta-button">Get Started Now</a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="footer-brand">
+                <div class="logo-container">
+                    <img src="https://customer-assets.emergentagent.com/job_42069a8a-9a70-44df-94f4-f6571c6ab514/artifacts/ficttj0r_IMG_4688.jpeg" alt="Sixth Sense Psychics Logo" class="logo-image">
+                    <span class="logo-text">Sixth Sense Psychics</span>
+                </div>
+                <p class="footer-tagline">Your trusted source for spiritual guidance</p>
+            </div>
+            
+            <div class="footer-links-row">
+                <a href="mailto:support@sixthsensepsychics.com" class="footer-link-button">
+                    <i class="fas fa-headset"></i>
+                    Support
+                </a>
+                <a href="#" class="footer-link-button">
+                    <i class="fas fa-file-alt"></i>
+                    Terms & Conditions
+                </a>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p class="footer-copyright">© 2026 Sixth Sense Psychics. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
